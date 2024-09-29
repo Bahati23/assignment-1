@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamour Gateway - Your Beauty Destination</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Extra interactive styles for landing page */
+        
+        /* Hero Section Background Image */
+        #hero {
+            background-image:dark blue;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Overlay for hero section */
+        #hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        #hero h1 {
+            font-size: 3rem;
+            z-index: 2;
+            position: relative;
+        }
+
+        #hero p {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            z-index: 2;
+            position: relative;
+        }
+
+        #hero .btn {
+            z-index: 2;
+            position: relative;
+            font-size: 1.2rem;
+            padding: 12px 24px;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        #hero .btn:hover {
+            background-color: #ff4d4d;
+        }
+
+        /* Services Section */
+        #services {
+            padding: 60px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        #services h2 {
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+        }
+
+        .service-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .service-card {
+            background-color: rgb(95, 5, 61);
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        /* Reviews Section */
+        #reviews {
+            background-color: #351680;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #reviews h2 {
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+        }
+
+        .review-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .review-card {
+            background-color: #46042c;
+            margin: 20px;
+            padding: 20px;
+            width: 250px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .review-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .review-card .customer-name {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Call-to-Action Section */
+        #cta {
+            background-color: #2b0118;
+            padding: 60px 20px;
+            color: #fff;
+            text-align: center;
+        }
+
+        #cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        #cta .btn {
+            background-color: #fff;
+            color: #380324;
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+
+        #cta .btn:hover {
+            background-color: #ff4dc4;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div>
+            <h1>Look Your Best, Anytime</h1>
+            <p><nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="hairdressers.html">Find a Hairdresser</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="form.html">User Portal</a></li>
+                </ul>
+            </nav>
+            Find and book professional hairdressers and beauty services in your area</p>
+            <a href="services.html" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Top Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Haircut</h3>
+                <p>Expert haircuts for men, women, and children.</p>
+            </div>
+            <div class="service-card">
+                <h3>Hair Coloring</h3>
+                <p>Professional hair coloring including balayage and highlights.</p>
+            </div>
+            <div class="service-card">
+                <h3>Manicure</h3>
+                <p>Pamper yourself with our nail care services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="review-cards">
+            <div class="review-card">
+                <p>"The best haircut I've ever had! Highly recommend!"</p>
+                <p class="customer-name">- Sarah J.</p>
+            </div>
+            <div class="review-card">
+                <p>"Amazing service and friendly staff. Will be back!"</p>
+                <p class="customer-name">- John M.</p>
+            </div>
+            <div class="review-card">
+                <p>"Love my new hair color. The stylist was awesome!"</p>
+                <p class="customer-name">- Emily R.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section id="cta">
+        <h2>Ready for a New Look?</h2>
+        <a href="contact.html" class="btn">Book an Appointment</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hairdresser Connect. All rights reserved.</p>
+    </footer>
+</body>
+</html>

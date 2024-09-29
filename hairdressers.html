@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Hairdresser - Hairdresser Connect</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Extra styles for hairdressers page */
+        .hairdresser-profile {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .hairdresser-profile .profile-placeholder {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        .hairdresser-info {
+            flex: 1;
+        }
+
+        .hairdresser-info h3 {
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        .hairdresser-info p {
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .hairdresser-info ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        .hairdresser-info ul li {
+            background-color: #fff;
+            padding: 8px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .rating {
+            color: #f5a623;
+        }
+
+        .book-now-btn {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .book-now-btn:hover {
+            background-color: #ff4d4d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <h1>Glamour Gateway</h1>
+
+        <h2>Find a Hairdresser</h2>
+        <p>Browse through our list of professional hairdres<nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="hairdressers.html">Find a Hairdresser</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="form.html">User Portal</a></li>
+            </ul>
+        </nav>
+        sers and beauty experts. Select a hairdresser that offers the services you need, and book an appointment today!</p>
+
+        <!-- Hairdresser Profile 1 -->
+        <div class="hairdresser-profile">
+            <div class="profile-placeholder" aria-label="Jessica Taylor - Hairdresser profile photo">
+                Jessica Taylor
+            </div>
+            <div class="hairdresser-info">
+                <h3>Jessica Taylor</h3>
+                <p><strong>Specialty:</strong> Haircuts, Coloring, Styling</p>
+                <p><strong>Rating:</strong> <span class="rating">★★★★☆</span> (120 Reviews)</p>
+                <h4>Services Offered:</h4>
+                <ul>
+                    <li>Haircut (Men & Women)</li>
+                    <li>Hair Coloring (Balayage, Highlights)</li>
+                    <li>Hair Styling (Blowouts, Updos)</li>
+                    <li>Manicure & Pedicure</li>
+                </ul>
+                <a href="booking.html" class="book-now-btn">Book Now</a>
+            </div>
+        </div>
+
+        <!-- Hairdresser Profile 2 -->
+        <div class="hairdresser-profile">
+            <div class="profile-placeholder" aria-label="Michael Johnson - Hairdresser profile photo">
+                Michael Johnson
+            </div>
+            <div class="hairdresser-info">
+                <h3>Michael Johnson</h3>
+                <p><strong>Specialty:</strong> Haircutting, Styling, Skincare</p>
+                <p><strong>Rating:</strong> <span class="rating">★★★★★</span> (85 Reviews)</p>
+                <h4>Services Offered:</h4>
+                <ul>
+                    <li>Haircuts (Men & Women)</li>
+                    <li>Hair Styling (Special Events)</li>
+                    <li>Facials & Skincare Treatments</li>
+                    <li>Waxing (Eyebrow, Full Body)</li>
+                </ul>
+                <a href="booking.html" class="book-now-btn">Book Now</a>
+            </div>
+        </div>
+
+        <!-- Hairdresser Profile 3 -->
+        <div class="hairdresser-profile">
+            <div class="profile-placeholder" aria-label="Emily Roberts - Hairdresser profile photo">
+                Emily Roberts
+            </div>
+            <div class="hairdresser-info">
+                <h3>Emily Roberts</h3>
+                <p><strong>Specialty:</strong> Hair Coloring, Makeup, Lash Extensions</p>
+                <p><strong>Rating:</strong> <span class="rating">★★★★☆</span> (100 Reviews)</p>
+                <h4>Services Offered:</h4>
+                <ul>
+                    <li>Hair Coloring (Full Color, Highlights)</li>
+                    <li>Makeup Application (Bridal, Photoshoots)</li>
+                    <li>Eyelash Extensions & Brow Tinting</li>
+                    <li>Manicure & Pedicure</li>
+                </ul>
+                <a href="booking.html" class="book-now-btn">Book Now</a>
+            </div>
+        </div>
+
+        <!-- Hairdresser Profile 4 -->
+        <div class="hairdresser-profile">
+            <div class="profile-placeholder" aria-label="Laura Garcia - Hairdresser profile photo">
+                Laura Garcia
+            </div>
+            <div class="hairdresser-info">
+                <h3>Laura Garcia</h3>
+                <p><strong>Specialty:</strong> Full-Service Salon Treatments</p>
+                <p><strong>Rating:</strong> <span class="rating">★★★★★</span> (65 Reviews)</p>
+                <h4>Services Offered:</h4>
+                <ul>
+                    <li>Haircuts & Hair Styling</li>
+                    <li>Facials & Skincare Treatments</li>
+                    <li>Waxing & Threading</li>
+                    <li>Massage Therapy</li>
+                </ul>
+                <a href="booking.html" class="book-now-btn">Book Now</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hairdresser Connect. All rights reserved.</p>
+    </footer>
+</body>
+</html>
